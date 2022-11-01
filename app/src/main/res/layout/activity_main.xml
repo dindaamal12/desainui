@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakatas"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fotoprofil"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="49dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rp_1_000_000"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="89dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saldo"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="133dp"
+        android:layout_marginStart="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotaktengah"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakkecilatas"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transfer"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakkecilatas"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/payment"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakkecilatas"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/information"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakkecilatas"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/emoney2"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakkecilatas"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/commerce"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakkecilatas"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/more"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transfer"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="249dp"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/payment"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="249dp"
+        android:layout_marginStart="178dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/information"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="249dp"
+        android:layout_marginStart="285dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e_money"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="362dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e_commerce"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="362dp"
+        android:layout_marginStart="160dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/more"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="362dp"
+        android:layout_marginStart="310dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakbawah"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transaksi_terakhir"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="-40dp"
+        tools:layout_editor_absoluteY="499dp"
+        android:layout_marginStart="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakkecilbawah"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/b"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakkecilbawah"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/b"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="623dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_0088997788"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="553dp"
+        android:layout_marginStart="80dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rp_3_000_000"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="553dp"
+        android:layout_marginStart="280dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aca"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="-55dp"
+        tools:layout_editor_absoluteY="571dp"
+        android:layout_marginStart="80dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_0077668899"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="623dp"
+        android:layout_marginStart="80dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rp1_000_000"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginStart="280dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="623dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amal"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="643dp"
+        android:layout_marginStart="80dp">
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
